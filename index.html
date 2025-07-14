@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome + Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./imagenes/para (blog redondearlo ).png">
+
+    <title>Inicio</title>
+
+    <style>
+        .bg-custom {
+            background-color: #d5ac67;
+        }
+
+        .navbar-brand,
+        .navbar-dark .nav-link {
+            color: #332a1a;
+        }
+
+        .navbar-dark .nav-link:hover {
+            color: #fff;
+        }
+
+        .logo-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+
+        .bx-wrapper,
+        .bx-viewport,
+        .bx-wrapper img {
+            height: 300px !important;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        /* Margen para compensar el navbar fijo */
+        .slider-margin {
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom px-3 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./imagenes/para (blog redondearlo ).png" class="logo-icon" alt="Logo" />
+                TaylorGuitars.com
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-door"></i> Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html"><i class="bi bi-pencil-square"></i> Servicios</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contactos.html"><i class="bi bi-people"></i> Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider con margen superior -->
+    <div class="slider slider-margin">
+        <div><img src="./imagenes/banner1.jfif" title="Imagen 1" alt="Banner 1" /></div>
+        <div><img src="./imagenes/banner2.webp" title="Imagen 2" alt="Banner 2" /></div>
+        <div><img src="./imagenes/banner4.jpg" title="Imagen 3" alt="Banner 3" /></div>
+    </div>
+
+    <!-- Carta "Acerca de nosotros" -->
+    <section class="py-5 text-center">
+        <h2 class="text-center my-4">
+            <i class="bi bi-guitar me-2"></i>
+            Taylor Guitars
+            <i class="bi bi-music-note-list ms-2"></i>
+        </h2>
+        <div class="container my-4">
+            <div class="card p-4 rounded shadow" style="background-color: #d5ac67; color: white;">
+                <p class="mb-0" style="text-align: justify;">
+                    La música es una forma de expresión artística que consiste en la combinación de sonidos vocales o
+                    instrumentales, conforme a estándares culturales de ritmo y melodía.
+                    La música es una de las más antiguas formas de arte y ha estado presente, de diferentes maneras, en
+                    prácticamente todas las culturas humanas. Se puede crear con fines estéticos, recreativos,
+                    ceremoniales, terapéuticos o de comunicación.
+                </p>
+            </div>
+        </div>
+
+        <div class="card mx-auto" style="max-width: 400px;">
+            <div class="card-body">
+                <h5 class="card-title">Acerca de nosotros</h5>
+                <p class="card-text">Somos una empresa dedicada a ofrecer soluciones digitales.</p>
+                <a href="#servicios" class="btn btn-primary">Ver servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-auto py-3 bg-light text-center">
+        <p class="mb-1">&copy; 2025 Taylor Guitars – Todos los derechos reservados.</p>
+        <div>
+            <a href="https://www.tiktok.com/@taylorguitars?lang=es" class="mx-2"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/taylorguitars" class="mx-2"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/taylorguitars/?hl=es" class="mx-2"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.taylorguitars.com/" class="mx-2"><i class="fa-solid fa-guitar"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts: jQuery, bxSlider, Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $('.slider').bxSlider({
+                auto: true,
+                autoControls: true,
+                stopAutoOnClick: true,
+                pager: true,
+                slideWidth: 1500,
+                captions: true,
+            });
+        });
+    </script>
+</body>
+
+</html>

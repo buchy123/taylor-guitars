@@ -1,0 +1,17 @@
+
+ body{
+    background-image: url(imagenes/taylor\ fondo\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+h2{
+    text-align: center;
+    background: #d5ac67;
+}
+.pe{
+    color: black;
+    text-align: justify;
+}
